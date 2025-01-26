@@ -1,0 +1,46 @@
+/* ベーススタイル */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9; /* 背景色 */
+    margin: 0;
+    padding: 0;
+}
+
+/* 見出し */
+h1 {
+    background-color: #0078d4; /* ヘッダー背景色 */
+    color: white; /* ヘッダー文字色 */
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* 段落のスタイル */
+p {
+    margin: 15px auto;
+    text-align: center;
+    color: #333;
+}
+
+/* リンクのスタイル */
+a {
+    color: #0078d4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #0056a3;
+    text-decoration: underline;
+}
+
+/* 全体のレイアウト */
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
